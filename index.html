@@ -14,7 +14,7 @@
   <!-- NAVBAR -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
-      <a href="#home" class="logo">&lt;Hosea<span>Sebsibe</span>/&gt;</a>
+      <a href="#home" class="logo">Hosea Sebsibe</a>
       <nav class="nav-links" id="navLinks">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -22,7 +22,6 @@
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a href="#contact" class="btn btn-small nav-cta">Hire Me</a>
       <button class="burger" id="burger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
@@ -32,20 +31,16 @@
   <!-- HERO -->
   <section class="hero" id="home">
     <div class="container hero-inner">
-      <p class="eyebrow">👋 Welcome to my portfolio</p>
-      <h1>Hi, I'm <span class="highlight">Hosea Sebsibe</span></h1>
-      <h2 class="typewriter">
-        <span id="typed"></span><span class="cursor">|</span>
-      </h2>
+      <h1>Hosea Sebsibe</h1>
+      <p class="hero-role">DevOps Engineer &amp; Full-Stack Developer — Addis Ababa, Ethiopia</p>
       <p class="hero-desc">
-        DevOps Engineer and Computer Science graduate based in Addis Ababa, Ethiopia.
-        I deploy and maintain Spring Boot microservices for fintech digital lending platforms,
-        build CI/CD pipelines with GitLab CI/CD and Jenkins, and support production systems
-        with Docker, Linux automation, and Prometheus/Grafana monitoring.
+        I keep fintech systems running. That means deploying Spring Boot microservices,
+        building CI/CD pipelines with GitLab and Jenkins, and making sure production stays
+        up — with Docker, Linux, and a fair amount of log digging.
       </p>
       <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View My Work</a>
-        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
       </div>
       <div class="hero-socials">
         <a href="https://github.com/sebsibehosea" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
@@ -53,56 +48,37 @@
         <a href="mailto:sebsibehosea@gmail.com" aria-label="Email">Email</a>
       </div>
     </div>
-    <div class="scroll-indicator">
-      <span></span>
-    </div>
   </section>
 
   <!-- ABOUT -->
   <section class="section" id="about">
     <div class="container">
-      <p class="section-tag">01 · About</p>
-      <h2 class="section-title">A bit about me</h2>
+      <h2 class="section-title">About me</h2>
       <div class="about-grid">
         <div class="about-text">
           <p>
-            DevOps Engineer and Computer Science graduate with professional experience in
-            DevOps and full-stack development. Skilled in Linux server administration, Docker,
-            Git, GitLab CI/CD, Jenkins, application deployment, system monitoring, Bash scripting,
-            and production support.
+            I'm a DevOps Engineer and Computer Science graduate based in Addis Ababa. For the
+            past year I've worked in fintech, deploying and maintaining the microservices that
+            power digital lending platforms for commercial banks.
           </p>
           <p>
-            I deploy and maintain microservices across development, UAT, and production
-            environments in the fintech industry, with hands-on experience troubleshooting
-            infrastructure, networking, container, and application issues. Currently strengthening
-            expertise in Kubernetes, Terraform, Ansible, AWS, and GitOps practices.
+            My day-to-day is a mix of building CI/CD pipelines, containerizing services with
+            Docker, administering Linux servers, and troubleshooting whatever breaks in production —
+            networking, containers, or the app itself. Right now I'm learning Kubernetes,
+            Terraform, and AWS to get deeper into infrastructure as code.
           </p>
-          <div class="about-stats">
-            <div class="stat">
-              <h3 data-count="1">0</h3>
-              <p>Years Experience</p>
-            </div>
-            <div class="stat">
-              <h3 data-count="6">0</h3>
-              <p>Projects Shipped</p>
-            </div>
-            <div class="stat">
-              <h3 data-count="15">0</h3>
-              <p>Technologies</p>
-            </div>
-          </div>
         </div>
         <div class="about-cards">
           <div class="info-card">
-            <h4>⚙️ DevOps Engineering</h4>
+            <h4>DevOps Engineering</h4>
             <p>GitLab CI/CD &amp; Jenkins pipelines, Docker/Docker Compose, Linux automation, Prometheus &amp; Grafana monitoring.</p>
           </div>
           <div class="info-card">
-            <h4>🎨 Frontend Development</h4>
+            <h4>Frontend Development</h4>
             <p>Responsive interfaces with React, Next.js, TypeScript, and Tailwind CSS.</p>
           </div>
           <div class="info-card">
-            <h4>🧩 Backend & Microservices</h4>
+            <h4>Backend &amp; Microservices</h4>
             <p>Containerized Spring Boot microservices, Node.js, Django/FastAPI, and PostgreSQL-backed APIs.</p>
           </div>
         </div>
@@ -113,42 +89,61 @@
   <!-- SKILLS -->
   <section class="section section-alt" id="skills">
     <div class="container">
-      <p class="section-tag">02 · Skills</p>
-      <h2 class="section-title">Technologies I work with</h2>
+      <h2 class="section-title">What I work with</h2>
       <div class="skills-grid">
 
         <div class="skill-category">
           <h3>DevOps & CI/CD</h3>
           <div class="chips">
-            <span>Docker</span><span>Docker Compose</span><span>Kubernetes (working knowledge)</span>
-            <span>GitLab CI/CD</span><span>Jenkins</span><span>AWS</span>
-            <span>Linux / Ubuntu</span><span>Bash / Shell scripting</span>
-            <span>Prometheus &amp; Grafana</span><span>Terraform</span><span>Ansible</span>
+            <span class="chip"><img src="images/docker.svg" alt="Docker" />Docker</span>
+            <span class="chip"><img src="images/docker.svg" alt="Docker Compose" />Docker Compose</span>
+            <span class="chip"><img src="images/kubernetes.svg" alt="Kubernetes" />Kubernetes</span>
+            <span class="chip"><img src="images/gitlab.svg" alt="GitLab CI/CD" />GitLab CI/CD</span>
+            <span class="chip"><img src="images/jenkins.svg" alt="Jenkins" />Jenkins</span>
+            <span class="chip"><img src="images/aws.svg" alt="AWS" />AWS</span>
+            <span class="chip"><img src="images/linux.svg" alt="Linux" />Linux / Ubuntu</span>
+            <span class="chip"><img src="images/bash.svg" alt="Bash" />Bash scripting</span>
+            <span class="chip"><img src="images/prometheus.svg" alt="Prometheus" />Prometheus</span>
+            <span class="chip"><img src="images/grafana.svg" alt="Grafana" />Grafana</span>
+            <span class="chip"><img src="images/terraform.svg" alt="Terraform" />Terraform</span>
+            <span class="chip"><img src="images/ansible.svg" alt="Ansible" />Ansible</span>
           </div>
         </div>
 
         <div class="skill-category">
           <h3>Frontend</h3>
           <div class="chips">
-            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
-            <span>TypeScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span>
+            <span class="chip"><img src="images/html5.svg" alt="HTML5" />HTML5</span>
+            <span class="chip"><img src="images/css3.svg" alt="CSS3" />CSS3</span>
+            <span class="chip"><img src="images/javascript.svg" alt="JavaScript" />JavaScript</span>
+            <span class="chip"><img src="images/typescript.svg" alt="TypeScript" />TypeScript</span>
+            <span class="chip"><img src="images/react.svg" alt="React" />React</span>
+            <span class="chip"><img src="images/nextjs.svg" alt="Next.js" />Next.js</span>
+            <span class="chip"><img src="images/tailwind.svg" alt="Tailwind CSS" />Tailwind CSS</span>
           </div>
         </div>
 
         <div class="skill-category">
           <h3>Backend & Microservices</h3>
           <div class="chips">
-            <span>Spring Boot (microservices deployment)</span><span>Node.js</span>
-            <span>Django</span><span>FastAPI</span><span>Python</span>
-            <span>REST APIs</span><span>PostgreSQL</span><span>Redash</span>
+            <span class="chip"><img src="images/spring.svg" alt="Spring Boot" />Spring Boot</span>
+            <span class="chip"><img src="images/nodejs.svg" alt="Node.js" />Node.js</span>
+            <span class="chip"><img src="images/django.svg" alt="Django" />Django</span>
+            <span class="chip"><img src="images/fastapi.svg" alt="FastAPI" />FastAPI</span>
+            <span class="chip"><img src="images/python.svg" alt="Python" />Python</span>
+            <span class="chip"><img src="images/postgresql.svg" alt="PostgreSQL" />PostgreSQL</span>
+            <span class="chip"><img src="images/mongodb.svg" alt="MongoDB" />MongoDB</span>
+            <span class="chip"><img src="images/express.svg" alt="Express" />Express</span>
           </div>
         </div>
 
         <div class="skill-category">
           <h3>Tools &amp; Practices</h3>
           <div class="chips">
-            <span>Git</span><span>GitOps</span><span>Agile methodology</span>
-            <span>Log analysis</span><span>Incident resolution</span><span>Nginx</span>
+            <span class="chip"><img src="images/git.svg" alt="Git" />Git</span>
+            <span class="chip"><img src="images/nginx.svg" alt="Nginx" />Nginx</span>
+            <span>GitOps</span><span>Agile methodology</span>
+            <span>Log analysis</span><span>Incident resolution</span>
           </div>
         </div>
 
@@ -159,14 +154,12 @@
   <!-- PROJECTS -->
   <section class="section" id="projects">
     <div class="container">
-      <p class="section-tag">03 · Projects</p>
       <h2 class="section-title">Things I've built</h2>
       <div class="projects-grid" id="projectsGrid">
         <!-- Project cards injected/edit directly below -->
 
         <article class="project-card">
           <div class="project-top">
-            <span class="project-icon">🏦</span>
             <div class="project-links">
               <span aria-label="Private project">Private</span>
             </div>
@@ -178,7 +171,6 @@
 
         <article class="project-card">
           <div class="project-top">
-            <span class="project-icon">🛍️</span>
             <div class="project-links">
               <a href="https://github.com/sebsibehosea/express-sequelize-store" target="_blank" rel="noopener" aria-label="Source code">Code</a>
             </div>
@@ -190,7 +182,6 @@
 
         <article class="project-card">
           <div class="project-top">
-            <span class="project-icon">🌍</span>
             <div class="project-links">
               <a href="https://github.com/sebsibehosea/juweria-empowerment-ngo" target="_blank" rel="noopener" aria-label="Source code">Code</a>
             </div>
@@ -202,7 +193,6 @@
 
         <article class="project-card">
           <div class="project-top">
-            <span class="project-icon">🍔</span>
             <div class="project-links">
               <a href="https://github.com/sebsibehosea/food-delivery-api" target="_blank" rel="noopener" aria-label="Source code">Code</a>
             </div>
@@ -214,7 +204,6 @@
 
         <article class="project-card">
           <div class="project-top">
-            <span class="project-icon">📦</span>
             <div class="project-links">
               <a href="https://github.com/sebsibehosea/bfh_mern" target="_blank" rel="noopener" aria-label="Source code">Code</a>
             </div>
@@ -231,7 +220,6 @@
   <!-- EXPERIENCE -->
   <section class="section section-alt" id="experience">
     <div class="container">
-      <p class="section-tag">04 · Experience</p>
       <h2 class="section-title">Where I've worked</h2>
       <div class="timeline">
         <div class="timeline-item">
@@ -282,10 +270,9 @@
   <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="container contact-inner">
-      <p class="section-tag">05 · Contact</p>
-      <h2 class="section-title">Let's work together</h2>
+      <h2 class="section-title">Get in touch</h2>
       <p class="contact-desc">
-        Have a project in mind or just want to connect? My inbox is always open.
+        If you're hiring or just want to talk shop, my inbox is open.
       </p>
       <form class="contact-form" id="contactForm">
         <div class="form-row">
@@ -302,7 +289,7 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> Hosea Sebsibe. Built with HTML, CSS &amp; JavaScript.</p>
+      <p>© <span id="year"></span> Hosea Sebsibe</p>
       <div class="footer-links">
         <a href="https://github.com/sebsibehosea" target="_blank" rel="noopener">GitHub</a>
         <a href="https://linkedin.com/in/hosea-sebsibe-121279316" target="_blank" rel="noopener">LinkedIn</a>
